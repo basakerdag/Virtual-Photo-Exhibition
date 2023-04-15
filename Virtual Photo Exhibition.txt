@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+   <style>
+    body{
+        background-image: url('https://thumbs.dreamstime.com/b/vintage-wallpaper-21604751.jpg'); 
+
+    }
+    img{
+      padding-left:50px;
+    }
+  
+   .contain{
+    object-fit: contain;
+     
+   }
+   .jumbotron{
+    background-image: url('https://media.istockphoto.com/id/1251312878/tr/foto%C4%9Fraf/bej-mikro-fiber-kuma%C5%9F-doku.jpg?s=612x612&w=0&k=20&c=C66Z-d8qWWd0HjD5-S-phMDJ1R1hZC5dNOWP1KY76_s=');
+   }
+   h1{
+    color:black;
+    font-family: Comic;
+    font-style: italic;
+    font-size: 50px;
+
+   }
+   h3{
+    color: antiquewhite;
+    font-family: Comic;
+    font-style: italic;
+    font-size: 35px;
+   }
+   p{
+    color:black;
+    font-family: Comic;
+    font-style:italic;
+    font-size: 20px;
+   }
+   a{
+    
+    font-family:comic;
+    font-style:italic;
+   }
+
+   </style>
+
+
+
+
+
+</head>
+<body>
+
+    <center>
+        <div class="jumbotron">
+       <h1>   VIRTUAL PHOTO EXHIBITION   </h1>
+       
+       </div>
+       <br>
+       <div>
+         <h3> Get lost among  photos and find your passion. </h3>
+         <br><br>
+       <img src="https://source.unsplash.com/category/buildings&3/400x400"> </img>
+       <img src="https://source.unsplash.com/category/buildings/400x400" class="contain"  >  </img>
+       
+       <img src=" https://source.unsplash.com/featured/400x400"class="contain" > </img>
+        <br><br><br>
+        <h3> Do you want to be a photographer? </h3>
+        <a href="https://blog.alison.com/10-reasons-to-become-photographer"> 10 reasons why you should become a photographer </a>
+        <br><br><br>
+       <img src="https://source.unsplash.com/collection/762855/400x400"class="contain"  > </img>
+       
+       <img src="https://source.unsplash.com/user/fuyao/likes/400x400" class="contain" > </img>
+       
+       <img src="https://source.unsplash.com/user/jwwhitt/400x400" class="contain" > </img>
+       <br><br><br>
+       <h3> What is your passion? </h3>
+       <a href="https://www.indeed.com/career-advice/career-development/how-to-find-your-passion"> 10 Ways To Find Your Passion </a>
+       <br><br><br>
+       <img src="https://source.unsplash.com/collection/curated/400x400" class="contain" > </img>
+       <img src="https://source.unsplash.com/collection/curated&2/400x400" class="contain" > </img>
+       
+       <img src="https://source.unsplash.com/random/400x400/?Cryptocurrency" class="contain" "></img>
+        <br><br><br>
+        <h3> Have you visited a virtual exhibition before? </h3>
+        <a href="https://talent.foam.org/?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU9CfVJLqQev_J7sbfiacaF3xZw1a0VRElybIaGr_KOMIAdJNOkMMmwaAnAcEALw_wcB">Click for more virtual exhibitons</a>
+        <br><br><br>
+        <img src="https://source.unsplash.com/collection/curated&1/400x400" class="contain" -> </img>
+       
+       <img src="https://source.unsplash.com/random/400x400/?Cryptocurrency" class="contain" > </img>
+       
+       <img src="https://source.unsplash.com/category/buildings&2/400x400" class="contain" > </img>
+       
+       </div>
+       <br><br><br>
+       <h3>If you still can't decide...</h3>
+       <h3>We tell you which virtual exhibition you should visit according to the month you were born!</h3>
+       
+        
+        <br><br>
+        <button type="submit" onclick="thisButton();" class="bt btn-success"> <h4> Click ! </h4> 
+        </button>
+  
+        <br><br><br><br><br>
+  
+  
+        <div class="jumbotron text" >
+          
+        <p> "It's not enough to just own a camera. Everyone owns a camera. To be a photographer, you must understand, appreciate, and harness the power you hold!"
+            - Mark Denman</p>
+        
+        
+      </div>
+      
+     
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      </center>
+     <script>
+
+       const newLine ="\r\n";
+const text = "1) January" + newLine
++ "2) February " + newLine
++ "3) March" + newLine
++ "4) April" + newLine
++ "5) May" + newLine
++ "6) June" + newLine
++ "7) July" + newLine
++ "8) August" + newLine
++ "9) September" + newLine
++ "10) October" + newLine
++ "11) November" + newLine
++ "12) December" + newLine
++ "Please select the month you were born as the number."
+
+
+
+
+
+function thisButton() {
+    alert(text);
+    let number = Number(prompt("Number : "));
+    if(number == "1"){
+        alert("You must visit this virtual exhibition! > Oil & Moss (Igor Tereshkov)")
+     } else if (number == "2"){
+        alert("You must visit this virtual exhibition! > Golden Boy (Kwabena Sekyi Appiahnti)")
+     }else if (number == "3"){
+        alert("You must visit this virtual exhibition! > Heimat (Delali Ayivi)")
+     }else if (number == "4"){
+        alert("You must visit this virtual exhibition! > I Peri N’Tera (Daniel Castro Garcia)")
+     }else if (number == "5") {
+        alert("You must visit this virtual exhibition! > Extendable Ears (Sheng-Wen Lo) ")  
+     }else if (number == "6"){
+        alert("You must visit this virtual exhibition! > রশ্মি / Raśmi / Ray (Sarker Protick)")
+     }else if(number == "7"){
+        alert("You must visit this virtual exhibition! > Turunç (Solène Gün)")
+     }else if(number == "8"){
+        alert("You must visit this virtual exhibition! > Family Album (Pat Martin)")
+     }else if(number == "9"){
+        alert("You must visit this virtual exhibition! > Ghost Island (Lisandro Suriel)")
+     }else if(number == "10"){
+        alert("You must visit this virtual exhibition! > Quarantine Blues (Leonard Suryajaya)")
+    }else if(number == "11"){
+        alert("You must visit this virtual exhibition! > Last Letters (Billy H.C. Kwok)")
+    }else if(number == "12"){
+       alert("You must visit this virtual exhibition! > The Mind is a Voice, the Voice is Blind (Simon Lehner)")
+    }else{
+        alert("Please enter one of the numbers 1-12 !")
+    }
+
+}
+  
+     </script>
+
+
+    
+</body>
+</html>
